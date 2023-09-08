@@ -153,6 +153,23 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-4">
+                            <div class="card border">
+                                <div class="card-body">
+                                    <div class="form-group row">
+                                        <label for="siswa_id" class="control-label">Ketua Ruangan</label>
+                                        <?php
+                                        echo form_dropdown(
+                                            'siswa_id',
+                                            $siswas,
+                                            $kelas->siswa_id,
+                                            'class="select2 form-control" id="siswa_id" required'
+                                        );
+                                        ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <!--
                     <hr>
