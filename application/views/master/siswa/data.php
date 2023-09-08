@@ -116,33 +116,33 @@
                                 <span class="input-group-text"><i class="fas fa-user"></i></span>
                             </div>
                             <input id="nama_siswa" type="text" class="form-control" name="nama_siswa"
-                                   placeholder="Nama Siswa" required>
+                                   placeholder="Nama Pelamar" required>
                         </div>
                     </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col-md-4 col-sm-offset-4">
-                        <label for="nis">NIS :</label>
+                        <label for="nis">NIP :</label>
                     </div>
                     <div class="col-md-8 col-sm-offset-8">
                         <div class="input-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text"><i class="fas fa-id-card"></i></span>
                             </div>
-                            <input type="number" id="nis" class="form-control" name="nis" placeholder="NIS" required>
+                            <input type="number" id="nis" class="form-control" name="nis" placeholder="NIP" required>
                         </div>
                     </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col-md-4 col-sm-offset-4">
-                        <label for="nisn">NISN :</label>
+                        <label for="nisn">NO PELAMAR :</label>
                     </div>
                     <div class="col-md-8 col-sm-offset-8">
                         <div class="input-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text"><i class="fas fa-id-card"></i></span>
                             </div>
-                            <input type="number" id="nisn" class="form-control" name="nisn" placeholder="NISN" required>
+                            <input type="number" id="nisn" class="form-control" name="nisn" placeholder="NO PELAMAR" required>
                         </div>
                     </div>
                 </div>

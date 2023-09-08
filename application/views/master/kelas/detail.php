@@ -32,7 +32,7 @@
                     <table class="table table-bordered">
                         <tr>
                             <td style="width: 120px">
-                                Nama Kelas
+                                Nama Ruangan
                             </td>
                             <td>
                                 <?= $kelas->nama_kelas ?>
@@ -40,7 +40,7 @@
                         </tr>
                         <tr>
                             <td>
-                                Kode Kelas
+                                Kode Ruangan
                             </td>
                             <td>
                                 <?= $kelas->kode_kelas ?>
@@ -49,7 +49,7 @@
                         <?php if ($setting->jenjang == '3') : ?>
                             <tr>
                                 <td>
-                                    Jurusan
+                                    Posisi
                                 </td>
                                 <td>
                                     <?= $kelas->nama_jurusan ?>
@@ -58,7 +58,7 @@
                         <?php endif; ?>
                         <tr>
                             <td>
-                                Level Kelas
+                                Level Sesi
                             </td>
                             <td>
                                 <?= $kelas->level ?>
@@ -66,7 +66,7 @@
                         </tr>
                         <tr>
                             <td>
-                                Wali Kelas
+                                Pengawas
                             </td>
                             <td>
                                 <?= $kelas->nama_guru ?>
@@ -74,7 +74,7 @@
                         </tr>
                         <tr>
                             <td>
-                                Jumlah Siswa
+                                Jumlah Pelamar
                             </td>
                             <td>
                                 <?= count($siswas) ?>
@@ -84,11 +84,11 @@
                     <hr>
                     <div class="row">
                         <div class="col-md-6">
-                            <h6>Siswa Kelas <?= $kelas->nama_kelas ?></h6>
+                            <h6>Pelamar <?= $kelas->nama_kelas ?></h6>
                             <table class="table table-bordered table-striped">
                                 <tr>
                                     <th class="text-center align-middle">No</th>
-                                    <th class="text-center align-middle">N I S</th>
+                                    <th class="text-center align-middle">NIP/No Pelamar</th>
                                     <th class="text-center align-middle">Nama</th>
                                 </tr>
                                 <?php

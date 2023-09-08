@@ -29,7 +29,7 @@
                 </div>
                 <div class="card-body">
                     <div class="alert alert-default-light border border-success align-content-center mb-3" role="alert">
-                        Abaikan halaman ini jika sekolah tidak ada jurusan (jenjang SMP/MTs atau SD/MI)
+                        Ini adalah Department yang dapat di ikuti Pelamar
                     </div>
                     <?= form_open('', array('id' => 'bulk')) ?>
                     <div class="table-responsive">

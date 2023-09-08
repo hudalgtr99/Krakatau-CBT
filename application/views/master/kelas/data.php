@@ -16,15 +16,14 @@
                     <div class="row">
                         <?php if ($smt_active->id_smt == '2'): ?>
                             <div class="col-12 alert alert-default-info align-content-center" role="alert">
-                                <span class="badge badge-primary"><i class="fas fa-tools mr-1"></i> Atur Kelas Semester</span>
-                                digunakan jika ingin menyalin semua data kelas dari SMT I ke SMT II
+                                <span class="badge badge-primary"><i class="fas fa-tools mr-1"></i> Atur Ruangan </span>
+                                digunakan jika ingin menyalin semua data Ruangan
                             </div>
                         <?php else: ?>
                             <div class="col-12 alert alert-default-info align-content-center" role="alert">
                                 <span class="badge badge-primary"><i
-                                            class="fas fa-tools mr-1"></i> Kenaikan Kelas</span>
-                                digunakan untuk mengatur kenaikan kelas, siswa akan otomatis dipindahkan ke
-                                tahun pelajaran berikutnya sesuai kelasnya
+                                            class="fas fa-tools mr-1"></i> Nama Ruangan </span>
+                                telah mencakup Ruangan yang digunakan serta Sesi yang ada. Contoh: Ruang A (1) adalah Ruangan A pada sesi 1.
                             </div>
                         <?php endif; ?>
                         <div>
@@ -60,8 +59,7 @@
                     if (count($kelas) === 0) : ?>
                         <div class="col-12">
                             <div class="alert alert-default-warning shadow align-content-center" role="alert">
-                                Belum ada data kelas untuk Tahun Pelajaran <b><?= $tp_active->tahun ?></b> Semester:
-                                <b><?= $smt_active->smt ?></b>
+                                Belum ada data Ruangan untuk Tahun Ini
                             </div>
                         </div>
                     <?php else: ?>
