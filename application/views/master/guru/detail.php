@@ -35,10 +35,10 @@
                                 <p><b>PENTING</b></p>
                                 <ul>
                                     <li>
-                                        <span>Informasi di bawah ini adalah detail dari guru bersangkutan</span><br>
+                                        <span>Informasi di bawah ini adalah detail dari pengawas bersangkutan</span><br>
                                     </li>
                                     <li>
-                                        <span>Setelah menghapus data guru maka harus mengatur ulang guru pengganti agar tidak terjadi error</span>
+                                        <span>Setelah menghapus data pengawas maka harus mengatur ulang pengawas pengganti agar tidak terjadi error</span>
                                     </li>
                                 </ul>
                             </div>
@@ -47,13 +47,10 @@
                                 <p><b>SARAN</b></p>
                                 <ul>
                                     <li>
-                                        <span>Sebaiknya tidak menghapus guru yang mempunyai jabatan atau tugas lainnya.</span><br>
+                                        <span>Sebaiknya tidak menghapus pengawas yang mempunyai jabatan atau tugas lainnya.</span><br>
                                     </li>
                                     <li>
-                                        <span>Gunakan menu <b>User Management -> Guru</b> untuk menonaktifkan guru.</span>
-                                    </li>
-                                    <li>
-                                        <span>Atau gunakan menu <b>Guru -> Edit Profile</b> untuk mengganti nama guru tanpa harus menghapus.</span>
+                                        <span>Gunakan menu <b>User Management -> Pengawas</b> untuk menonaktifkan pengawas.</span>
                                     </li>
                                 </ul>
                             </div>
@@ -88,7 +85,7 @@
                                         <ul>
                                             <li><?= $guru['jabatan'][$tahun_ids[0]][1]->level . ' ' . $guru['jabatan'][$tahun_ids[0]][1]->nama_kelas ?></li>
                                             <li>
-                                                Pengampu
+                                                Pengawas
                                                 <ul>
                                                     <?php
                                                     $mapels = json_decode(json_encode(unserialize($guru['jabatan'][$tahun_ids[0]][1]->mapel_kelas)));
@@ -117,7 +114,7 @@
                                         <ul>
                                             <li><?= $guru['jabatan'][$tahun_ids[0]][2]->level . ' ' . $guru['jabatan'][$tahun_ids[0]][2]->nama_kelas ?></li>
                                             <li>
-                                                Pengampu
+                                                Pengawas
                                                 <ul>
                                                     <?php
                                                     $mapels = json_decode(json_encode(unserialize($guru['jabatan'][$tahun_ids[0]][2]->mapel_kelas)));
@@ -176,7 +173,7 @@
                                             <ul>
                                                 <li><?= $guru['jabatan'][$tahun_ids[$i]][2]->level . ' ' . $guru['jabatan'][$tahun_ids[$i]][2]->nama_kelas ?></li>
                                                 <li>
-                                                    Pengampu
+                                                    Pengawas
                                                     <ul>
                                                         <?php
                                                         $mapels = json_decode(json_encode(unserialize($guru['jabatan'][$tahun_ids[$i]][2]->mapel_kelas)));
@@ -199,13 +196,13 @@
                                 </tr>
                             <?php endfor; endif; ?>
                         <tr>
-                            <td class="align-top">Materi Siswa</td>
+                            <td class="align-top">Materi Pelamar</td>
                             <td <?= count($tahuns) > 0 ? 'colspan="2" ' : '' ?>class="">
                                 <b><?= $guru['materi'] ?></b> materi
                             </td>
                         </tr>
                         <tr>
-                            <td class="align-top">Catatan Siswa</td>
+                            <td class="align-top">Catatan Pelamar</td>
                             <td <?= count($tahuns) > 0 ? 'colspan="2" ' : '' ?>class="">
                                 <b><?= $guru['catatan_mapel'] ?></b> catatan
                             </td>
