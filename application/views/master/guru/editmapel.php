@@ -22,16 +22,16 @@
                     <div class="alert border border-success alert-default-success">
                         <div class="row">
                             <span class="col-12 mb-2">
-                                Jika ada jabatan guru di semester sebelumnya, jabatan dan mata pelajaran yang diampu bisa dicopy ke semester sekarang, dengan catatan:
+                                Jika ada jabatan pengawas di semester sebelumnya, jabatan dan mata ujian yang diawas bisa dicopy sekarang, dengan catatan:
                                 <ul class="mb-1">
                                     <li>
-                                        <b>Aksi ini akan mengganti jabatan dan mapel guru yang sudah diatur di semester sekarang</b>.
+                                        <b>Aksi ini akan mengganti jabatan dan mata ujian pengawas yang sudah diatur sekarang</b>.
                                     </li>
                                     <li>
-                                        Pastikan nama kelas sekarang sudah dibuat dan sama seperti nama kelas sebelumnya.
+                                        Pastikan nama ruangan sekarang sudah dibuat dan sama seperti nama ruangan sebelumnya.
                                     </li>
                                     <li>
-                                        Aksi ini tidak akan berjalan sempurna jika nama kelas di semester sebelumnya berbeda dengan nama kelas di semestr sekarang.
+                                        Aksi ini tidak akan berjalan sempurna jika nama ruangan di semester sebelumnya berbeda dengan nama ruangan sekarang.
                                     </li>
                                 </ul>
                             </span>
