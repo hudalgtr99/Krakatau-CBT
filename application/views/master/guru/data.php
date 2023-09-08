@@ -21,7 +21,7 @@ function sortByPosition($a, $b)
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-6 col-sm-7 col-lg-9">
-                    <h1>Pengawas </h1>
+                    <h1>Pengawas</h1>
                 </div>
             </div>
         </div>
