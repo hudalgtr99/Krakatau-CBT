@@ -91,12 +91,12 @@ function sortByPosition($a, $b)
                                                 </div>
                                                 <?php if ($mapels_guru != null || $ekstras_guru != null): ?>
                                                     <div>
-                                                        <span>Pengampu:</span>
+                                                        <span>Pengawas:</span>
                                                         <table class="table table-bordered">
                                                             <tr>
                                                                 <th class="text-center">No.</th>
-                                                                <th class="text-center">Mata Pelajaran</th>
-                                                                <th class="text-center">Kelas</th>
+                                                                <th class="text-center">Mata Ujian</th>
+                                                                <th class="text-center">Ruangan</th>
                                                             </tr>
                                                             <?php
                                                             $nn = 1;
@@ -154,7 +154,7 @@ function sortByPosition($a, $b)
                         </table>
                     <?php else: ?>
                         <div class="alert alert-default-warning align-content-center" role="alert">Belum ada
-                            data GURU
+                            data Pengawas
                         </div>
                     <?php endif; ?>
                 </div>
