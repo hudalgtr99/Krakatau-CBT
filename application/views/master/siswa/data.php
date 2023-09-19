@@ -3,7 +3,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1><?= $judul ?></h1>
+                    <h1>Pelamar</h1>
                 </div>
             </div>
         </div>
@@ -13,7 +13,7 @@
         <div class="container-fluid">
             <div class="card card-default my-shadow mb-4">
                 <div class="card-header">
-                    <h6 class="card-title"><?= $subjudul ?></h6>
+                    <h6 class="card-title">Data Pelamar</h6>
                     <div class="card-tools">
                         <button type="button" data-toggle="modal" data-target="#createSiswaModal"
                                 class="btn btn-sm btn-primary"><i
@@ -509,7 +509,7 @@
                     '</tr>';
             });
         } else {
-            html += '<tr><td colspan="5" class="text-center align-middle">Tidak ada data siswa</td><tr>';
+            html += '<tr><td colspan="5" class="text-center align-middle">Tidak ada data pelamar</td><tr>';
         }
         $('#table-body').html(html);
         $(`.avatar`).each(function () {

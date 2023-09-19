@@ -34,15 +34,15 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-6 mb-3">
-                            <label>Pilih Kelas Penilaian</label>
+                            <label>Pilih Ruang yang akan dinilai</label>
                             <?php
                             echo form_dropdown(
                                 'kelas[]',
                                 $kelas,
                                 null,
-                                'id="kelas" class="form-control" multiple="multiple" data-placeholder="Pilih kelas penilaian"'
+                                'id="kelas" class="form-control" multiple="multiple" data-placeholder="Pilih Ruang yang akan dinilai"'
                             ); ?>
-                            <small class="ml-2"><i>Pilih semua kelas yang akan melaksanakan penilaian</i></small>
+                            <small class="ml-2"><i>Pilih semua ruang yang akan melaksanakan penilaian</i></small>
                         </div>
                         <div class="col-md-6 d-none" id="generate">
                             <label>Aksi Kelas Terpilih</label>
@@ -233,7 +233,7 @@
         //console.log(Object.keys(arrKelas).length);
 
         if (Object.keys(arrKelas).length > 0) {
-            opsiKelas.prepend("<option value='Semua'>Semua Kelas</option>");
+            opsiKelas.prepend("<option value='Semua'>Semua Ruangan</option>");
         }
 
         opsiKelas.change(function () {

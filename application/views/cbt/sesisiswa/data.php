@@ -14,7 +14,7 @@ $jenjang = $setting->jenjang;
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1><?= $judul ?></h1>
+                    <h1>Atur Ruang dan Sesi Pelamar</h1>
                 </div>
             </div>
         </div>
@@ -24,7 +24,7 @@ $jenjang = $setting->jenjang;
         <div class="container-fluid">
             <div class="card card-default my-shadow mb-4">
                 <div class="card-header">
-                    <h6 class="card-title"><?= $subjudul ?></h6>
+                    <h6 class="card-title">Ruang dan Sesi Pelamar</h6>
                     <div class="card-tools">
                         <a type="button" href="<?= base_url('cbtsesisiswa?kls=' . $kelas_selected) ?>"
                            class="btn btn-sm btn-default">
@@ -34,13 +34,13 @@ $jenjang = $setting->jenjang;
                 </div>
                 <div class="card-body">
                     <?php
-                    $kelass = ['0' => 'Pilih kelas'] + $kelas;
+                    $kelass = ['0' => 'Pilih Ruang'] + $kelas;
                     $ruangs = ['0' => 'Pilih ruang'] + $ruang;
                     $sesis = ['0' => 'Pilih sesi'] + $sesi;
                     ?>
                     <div class="row">
                         <div class="col-12 col-md-3 mb-3">
-                            <label>Kelas: </label>
+                            <label>Ruang: </label>
                             <?php
                             echo form_dropdown(
                                 'kelas',
@@ -132,7 +132,7 @@ $jenjang = $setting->jenjang;
                         </div>
                     <?php else: ?>
                         <div class="alert alert-default-warning align-content-center"
-                             role="alert"><?= $kelas_selected == '0' ? 'Pilih kelas' : 'Belum ada data siswa' ?></div>
+                             role="alert"><?= $kelas_selected == '0' ? 'Pilih ruangan' : 'Belum ada data siswa' ?></div>
                     <?php endif; ?>
                 </div>
                 <div class="overlay d-none" id="loading">
