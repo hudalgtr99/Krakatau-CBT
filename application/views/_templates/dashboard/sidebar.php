@@ -183,53 +183,6 @@
                     </a>
                 </li>
                 <li class="nav-header">PELAKSANAAN</li>
-                <li class="nav-item has-treeview <?= in_array($page, $infoelearning) ? "menu-open" : "" ?>">
-                    <a href="#" class="nav-link <?= in_array($page, $infoelearning) ? "active" : "" ?>">
-                        <i class="nav-icon fas fa-microscope"></i>
-                        <p>
-                            Hasil E-Learning
-                            <i class="right fas fa-angle-left"></i>
-                        </p>
-                    </a>
-                    <ul class="nav nav-treeview">
-                        <li class="nav-item">
-                            <a href="<?= base_url('kelasstatus') ?>"
-                               class="nav-link <?= $page === 'kelasstatus' ? "active" : "" ?>">
-                                <i class="far fa-clipboard nav-icon"></i>
-                                <p>Nilai Harian</p>
-                            </a>
-                        </li>
-                        <!--
-                        <li class="nav-item">
-                            <a href="<?= base_url('kelasabsensiharianmapel') ?>" class="nav-link <?= $page === 'kelasabsensiharianmapel' ? "active" : "" ?>">
-                                <i class="fa fa-tasks nav-icon"></i>
-                                <p>Kehadiran dan Nilai</p>
-                            </a>
-                        </li>
-                        -->
-                        <li class="nav-item">
-                            <a href="<?= base_url('kelasabsensiharian') ?>"
-                               class="nav-link <?= $page === 'kelasabsensiharian' ? "active" : "" ?>">
-                                <i class="fa fa-user-check nav-icon"></i>
-                                <p>Kehadiran Harian</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="<?= base_url('kelasabsensibulanan') ?>"
-                               class="nav-link <?= $page === 'kelasabsensibulanan' ? "active" : "" ?>">
-                                <i class="fa fa-tasks nav-icon"></i>
-                                <p>Kehadiran Bulanan</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="<?= base_url('kelasnilai') ?>"
-                               class="nav-link <?= $page === 'kelasnilai' ? "active" : "" ?>">
-                                <i class="fa fa-trophy nav-icon"></i>
-                                <p>Rekap Nilai</p>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
                 <li class="nav-item has-treeview <?= in_array($page, $infoujian) ? "menu-open" : "" ?>">
                     <a href="#" class="nav-link <?= in_array($page, $infoujian) ? "active" : "" ?>">
                         <i class="nav-icon fas fa-graduation-cap"></i>
@@ -276,42 +229,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="nav-header">RAPOR</li>
-                <li class="nav-item">
-                    <a href="<?= base_url('rapor') ?>" class="nav-link <?= $page === 'rapor' ? "active" : "" ?>">
-                        <i class="fas fa-book nav-icon"></i>
-                        <p>Setting Rapor</p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="<?= base_url('bukurapor') ?>"
-                       class="nav-link <?= $page === 'bukurapor' ? "active" : "" ?>">
-                        <i class="fas fa-book nav-icon"></i>
-                        <p>Kumpulan Nilai Rapor</p>
-                    </a>
-                </li>
-                <!--
-                <li class="nav-item">
-                    <a href="<?= base_url('bukuinduk') ?>" class="nav-link <?= $page === 'bukuinduk' ? "active" : "" ?>">
-                        <i class="fas fa-book nav-icon"></i>
-                        <p>Buku Induk</p>
-                    </a>
-                </li>
-                -->
-                <li class="nav-item">
-                    <a href="<?= base_url('dataalumni') ?>"
-                       class="nav-link <?= $page === 'dataalumni' ? "active" : "" ?>">
-                        <i class="fa fa-users nav-icon"></i>
-                        <p>Alumni</p>
-                    </a>
-                </li>
                 <li class="nav-header">PENGATURAN</li>
-                <li class="nav-item">
-                    <a href="<?= base_url('settings') ?>" class="nav-link <?= $page === 'settings' ? "active" : "" ?>">
-                        <i class="fas fa-university nav-icon"></i>
-                        <p>Profile Sekolah</p>
-                    </a>
-                </li>
                 <li class="nav-item has-treeview <?= in_array($page, $usermanager) ? "menu-open" : "" ?>">
                     <a href="#" class="nav-link <?= in_array($page, $usermanager) ? "active" : "" ?>">
                         <i class="nav-icon fa fa-users-cog"></i>
