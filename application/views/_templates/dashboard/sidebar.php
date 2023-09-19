@@ -250,14 +250,14 @@
                             <a href="<?= base_url('userguru') ?>"
                                class="nav-link <?= $page === 'userguru' ? "active" : "" ?>">
                                 <i class="fas fa-user-tie nav-icon"></i>
-                                <p>Guru</p>
+                                <p>Pengawas</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="<?= base_url('usersiswa') ?>"
                                class="nav-link <?= $page === 'usersiswa' ? "active" : "" ?>">
                                 <i class="fas fa-users nav-icon"></i>
-                                <p>Siswa</p>
+                                <p>Pelamar</p>
                             </a>
                         </li>
                     </ul>

@@ -13,7 +13,7 @@
         <div class="container-fluid">
             <div class="card card-default my-shadow">
                 <div class="card-header with-border">
-                    <h3 class="card-title">Master <?= $subjudul ?></h3>
+                    <h3 class="card-title">Master Data User Pengawas</h3>
                     <div class="card-tools">
                         <button type="button" onclick="reload_ajax()" class="btn btn-sm btn-default">
                             <i class="fa fa-sync"></i> <span class="d-none d-sm-inline-block ml-1">Reload</span>

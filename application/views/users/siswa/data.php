@@ -13,7 +13,7 @@
         <div class="container-fluid">
             <div class="card card-default my-shadow">
                 <div class="card-header with-border">
-                    <h3 class="card-title">Master <?= $subjudul ?></h3>
+                    <h3 class="card-title">Master Data User Pelamar</h3>
                     <div class="card-tools">
                         <button type="button" class="btn btn-action btn-success btn-sm" data-action="aktifkan"
                                 data-toggle="tooltip" title="Aktifkan">
@@ -64,9 +64,9 @@
                             <thead>
                             <tr>
                                 <th class="text-center" style="width: 40px">No.</th>
-                                <th>NIS</th>
+                                <th>No Peserta</th>
                                 <th>Nama</th>
-                                <th>Kelas</th>
+                                <th>Ruangan</th>
                                 <th>Username</th>
                                 <th>Password</th>
                                 <th class="text-center">Status/Aksi</th>
