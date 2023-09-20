@@ -5,20 +5,7 @@
         <div class="container-fluid pl-0 pr-0 pb-0 pt-4" style="background-color: rgba(255,255,255,0.7)">
             <div class="row m-0">
                 <?php foreach ($info_box as $info) : ?>
-                    <div class="col-md-2 col-3">
-                        <div class="shadow small-box bg-<?= $info->box ?>">
-                            <div class="inner">
-                                <h5 class="mb-0"><b><?= $info->total; ?></b></h5>
-                                <span><?= $info->title; ?></span>
-                            </div>
-                            <div class="icon">
-                                <i class="fa fa-<?= $info->icon ?>" style="top: 5px"></i>
-                            </div>
-                            <a href="<?= base_url() . $info->url ?>" class="small-box-footer">
-                                Detail <i class="fa fa-arrow-circle-right"></i>
-                            </a>
-                        </div>
-                    </div>
+                    <div class="col-md-2 col-3"></div>
                 <?php endforeach; ?>
             </div>
         </div>
