@@ -203,7 +203,7 @@
                             <a href="<?= base_url('cbtstatus') ?>"
                                class="nav-link <?= $page === 'cbtstatus' ? "active" : "" ?>">
                                 <i class="fa fa-user-clock nav-icon"></i>
-                                <p>Status Siswa</p>
+                                <p>Status Pelamar</p>
                             </a>
                         </li>
                         <li class="nav-item">

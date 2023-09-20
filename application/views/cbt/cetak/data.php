@@ -31,42 +31,6 @@
                 ?>
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-lg-3 col-md-6 <?=$dnone?>">
-                            <a href="<?= base_url('cbtcetak/kartupeserta') ?>">
-                                <div class="info-box border">
-								<span class="info-box-icon bg-gradient-primary elevation-1">
-									<i class="fa fa-vcard-o"></i>
-								</span>
-                                    <div class="info-box-content">
-                                        <h5 class="info-box-content">Kartu Peserta</h5>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <a href="<?= base_url('cbtcetak/absenpeserta') ?>">
-                                <div class="info-box border">
-								<span class="info-box-icon bg-gradient-primary elevation-1">
-									<i class="fa fa-list-ol"></i>
-								</span>
-                                    <div class="info-box-content">
-                                        <h5 class="info-box-content">Daftar Hadir</h5>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <a href="<?= base_url('cbtcetak/beritaacara') ?>">
-                                <div class="info-box border">
-								<span class="info-box-icon bg-gradient-primary elevation-1">
-									<i class="fa fa-pencil-square-o"></i>
-								</span>
-                                    <div class="info-box-content">
-                                        <h5 class="info-box-content">Berita Acara</h5>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
                         <div class="col-lg-3 col-md-6">
                             <a href="<?= base_url('cbtcetak/pesertaujian') ?>">
                                 <div class="info-box border">
